@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#click").click(function () {
+                $("p").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("h1").click(function () {
+                $("h2").hide();
+            });
+        });
+        $(document).ready(function(){
+            $("h3").click(function(){
+                $(this).hide();
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <h1>Welcome to this JavaScript Tutorial</h1>
+    <p>I love myself </p>
+    <p> I wish! I were a butterfly .</p>
+    <div id="firstc" class="container">
+        <button id="click">Click Me</button>
+    </div>
+    <h2> Aapki Diksha</h2>
+    <h3>It is spontaneous</h3>
+</body>
+<script>
+    console.log("Hello World");
+//alert("Hello");
+</script>
+
+</html>
